@@ -1,0 +1,29 @@
+{
+	"jinja2 for": {
+		"prefix": "for",
+		"body": [
+			"{% for $1 in $2%}",
+			"$3",
+			"{% endfor %}",
+		],
+		"description": "blueprint"
+	}
+
+	"jinja2 if": {
+		"prefix": "if",
+		"body": [
+			"{% if $1 %}",
+			"$2",
+			"{% endif %}",
+		],
+		"description": "blueprint"
+	}
+
+	"jinja2 else": {
+		"prefix": "else",
+		"body": [
+			"{% else %}"
+		],
+		"description": "blueprint"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"print":{
+		"prefix": "pri",
+		"body": "print($1)"
+	}
+}
